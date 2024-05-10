@@ -1,14 +1,10 @@
 import { useState, useEffect } from "react"
-import { Button, InputGroup, Form, Container } from "react-bootstrap";
-import BoardColumn from "../Components/boardColumn";
+import { Button, InputGroup, Form } from "react-bootstrap";
 import io from 'socket.io-client';
-import MoneyTable from "../Components/moneyTable";
 import GameOverModal from "../Components/gameoverModal";
 const socket = io.connect('http://127.0.0.1:5004')
 import PlayerHands from "../Components/PlayerHands";
-import BoardContainer from "../Components/BoardContainer";
-import Controls from "../Components/constrols";
-import WelcomeOverlay from "../Components/WelcomeOverlay";
+import BoardContainer from "../Components/boardContainer.jsx";
 import { useParams } from 'react-router-dom';
 import UserHorses from '../Components/UserHorses';
 
