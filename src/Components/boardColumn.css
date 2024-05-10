@@ -1,0 +1,10 @@
+@keyframes selectedPiece {
+    0%  { border: none transparent 2px;}
+    50% { border: solid red 2px}
+    100% { border: solid transparent 2px}
+}
+
+.selectedPiece{
+    border: none transparent 2px;
+    animation: selectedPiece 2s 1;
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+}
+
+.horseNumber{
+    color: white;
+    min-width: 40px;
+}
+
+.userCard{
+    color: green;
+}
