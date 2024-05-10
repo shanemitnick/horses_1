@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "commonjs",
+  "homepage": "http://{shanemitnick}.github.io/{horses-1}",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
